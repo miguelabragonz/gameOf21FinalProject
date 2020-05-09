@@ -1,0 +1,38 @@
+OBJECTiVE: This program will allow the player to play game of 21 with the computer. Whoever gets closer to 21 win.
+We Will:
+-create code that checks who won each round.
+-create code that takes the input(choices) from the user.
+-create code that takes 'input' from the computer.
+-check if the user wants to quit OR if the user doesn't enter one of the options.
+-loop each round of the game.
+-add statements at the end and beginning that welcome and thank the user for playing.
+-loop the whole game, so that they can keep playing until they choose to quit.
+
+PSEUDOCODE:
+#import random functiom
+    
+#set variable keepPlaying to true
+#While keepPlaying is true:
+
+    #print statement welcoming players to the game
+    #print statement stating the rules ( Press 'q' to quit)
+    
+    #def deck(1,2,3,4,5,6,7,8,9,10,11,12,13)*4 to account for 52 cards
+    
+    #J=11, Q=12, K=13, A=1
+
+    
+    #set player hand and computer hand to 0
+    
+    #shuffle deck 
+    
+    #Add card to hand
+    
+    #Print statement saying if they want to draw another card or stay. d=draw s=stay
+    
+    #if player draws then add another random card to hand
+    #check if player's hand is above 21 if so, print out you lose
+    #else compare computer and player's hand. If player hand is larger than computer hand, player wins
+    #print out you win
+    #elif player hand is smaller than computer hand
+    #print out you lose! try again.
